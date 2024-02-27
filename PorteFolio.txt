@@ -1,0 +1,12 @@
+Document : NOM-PRENOM. Un doc qui contient soit les infos, soit le lien du site. 
+
+Evaluer au s3 - s4
+
+à déposer le 27 janvier
+
+
+Capacité à savoir pourquoi on fait ça. Les conceptes qu'il y a dessus. 
+
+Version 1 en FIN Février 
+
+Version finale en évolution vers fin Août. 

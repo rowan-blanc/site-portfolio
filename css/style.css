@@ -1,0 +1,232 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 20px; 
+  background-color: #f4f4f4; /* Blanc légèrement gris */
+  text-align: justify;
+}
+
+header {
+  position: relative;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-photo {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  width: 140px; 
+  height: auto;
+  border-radius: 35%;
+}
+
+main {
+  max-width: 1500px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+nav.menu a{
+  list-style-type: none;
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none; /* Annuler le soulignement */
+  color: #3498db; /* Choisir la couleur de votre texte */
+}
+
+nav.menu a:visited {
+  color: #3498db; /* Couleur après avoir visité le lien */
+}
+
+nav.menu a:active {
+  color: #3498db; /* Couleur pendant le clic */
+}
+
+nav.menu li {
+  display: inline;
+  margin-right: 15px;
+  text-decoration: none; /* Annuler le soulignement */
+  color: #3498db; /* Choisir la couleur de votre texte */
+
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+section.apropos p, section.formation p, section.experience p,
+section.competence h4, section.projets p, section.divers p, section.contact p {
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+progress {
+  width: 84%;
+}
+
+h5, h6 {
+  color: #3498db;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+video {
+  max-width: 30%;
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+section.projets img {
+  max-width: 30%;
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 10px 0; 
+}
+
+
+section.competence img {
+  max-width: 15%; 
+  height: auto;
+  display: block;
+  margin: 10px 0; 
+}
+
+#scrollToTopCheckbox {
+  display: none;
+}
+
+
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Affiche le bouton lorsque la section avec l'id "top" est ciblée */
+#top:target .scroll-to-top-btn {
+  display: block;
+}
+
+.section-container {
+  border: 1px solid #dddddd;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.1); /* Modifiez les valeurs selon vos préférences */
+}
+
+.photo-gauche {
+  max-width: 8%; /* Ajustez la largeur selon vos besoins */
+  height: auto;
+  border-radius: 10px; /* Ajoutez un arrondi aux coins */
+  margin-right: 20px; /* Ajoutez une marge à droite pour l'espacement */
+}
+
+.photo-droite {
+  max-width: 12%; /* Ajustez la largeur selon vos besoins */
+  height: auto;
+  border-radius: 10px; /* Ajoutez un arrondi aux coins */
+  margin-left: 20px; /* Ajoutez une marge à droite pour l'espacement */
+}
+
+.apropos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 22px; 
+  text-align: justify;
+}
+
+.retour {
+  position: fixed;
+  max-width: 100%;
+  bottom: 10px;
+  right: 0px;
+  width: 80px;
+  height: 70px;
+}
+
+.competence {
+  position: relative; /* Pour positionner les images par rapport à cette section */
+}
+
+.competence-img {
+  position: absolute; /* Pour positionner les images absolument */
+  top: 50%; /* Positionner les images verticalement au milieu */
+  transform: translateY(-50%);
+  right: 10px; /* Ajustez la distance par rapport à la droite */
+  width: 300px; /* Ajustez la taille selon vos besoins */
+  height: auto;
+  border-radius: 10px; /* Ajoutez un arrondi aux coins */
+}
+
+.para {
+  font-size: 26px;
+}
+
+.projet1 {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+}
+
+.projet2 {
+  display: flex;
+  margin-left: 450px; /* Décalage vers la droite */
+  width: 1600px;
+}
+
+.projet3 {
+  display: flex;
+  width: 700px;
+  margin-left: 620px; /* Décalage vers la droite */
+}
